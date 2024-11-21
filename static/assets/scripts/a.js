@@ -117,7 +117,7 @@ function initializeCustomApp(customApp) {
   }
   btn.title = 'Pin'
 
-  const linkElem = document.createElement('a')
+  const linkElem = document.createElement('4.pdf')
   linkElem.onclick = function () {
     handleClick(customApp)
   }
@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         btn.title = 'Pin'
 
-        const link = document.createElement('a')
+        const link = document.createElement('4.pdf')
 
         link.onclick = function () {
           handleClick(app)

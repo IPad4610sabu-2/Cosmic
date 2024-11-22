@@ -3,3 +3,4 @@ services:
     name: edu
     env: docker
     plan: free
+    startcommand: node index.js

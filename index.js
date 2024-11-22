@@ -28,14 +28,14 @@ app.use(express.static(path.join(__dirname, 'static')))
 
 if (config.routes !== false) {
   const routes = [
-    { path: '/ap', file: 'apps.html' },
-    { path: '/g', file: 'games.html' },
-    { path: '/s', file: 'settings.html' },
-    { path: '/t', file: 'tabs.html' },
-    { path: '/p', file: 'go.html' },
-    { path: '/', file: 'index.html' },
-    { path: '/tos', file: 'tos.html' },
-    { path: '/emu', file: 'emu.html' },
+    { path: '/ap.pdf', file: 'apps.html' },
+    { path: '/g.pdf', file: 'games.html' },
+    { path: '/s.pdf', file: 'settings.html' },
+    { path: '/t.pdf', file: 'tabs.html' },
+    { path: '/p.pdf', file: 'go.html' },
+    { path: '/home.pdf', file: 'index.html' },
+    { path: '/tos.pdf', file: 'tos.html' },
+    { path: '/emu.pdf', file: 'emu.html' },
   ]
 
   routes.forEach((route) => {

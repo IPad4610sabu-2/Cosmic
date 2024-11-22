@@ -169,12 +169,12 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (app.link && (app.link.includes('now.gg') || app.link.includes('nowgg.me'))) {
           if (app.partial === null || app.partial === undefined) {
             app.partial = true
-            app.say = 'Now.gg is currently not working for some users.'
+            app.say = 'Now.ggは現在、一部のユーザーでは動作していません。.'
           }
         } else if (app.link && app.link.includes('nowgg.nl')) {
           if (app.error === null || app.error === undefined) {
             app.error = true
-            app.say = 'NowGG.nl is currently down.'
+            app.say = 'NowGG.nlは現在ダウンしています.'
           }
         }
 
@@ -225,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (app.partial) {
           paragraph.style.color = 'yellow'
           if (!app.say) {
-            app.say = 'This app is currently experiencing some issues, it may not work for you.'
+            app.say = 'このアプリは現在いくつかの問題が発生しており、機能しない可能性があります。.'
           }
         }
 
